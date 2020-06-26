@@ -10,6 +10,11 @@ Create a virtualenv:
 Activate virtualenv:
 `venv\Scripts\activate`
 
+Install the python libraries:
+`pip install -r requirements.txt`
+
+Adapt the `app.py` file by putting your secret key for the form
+
 Launch the application :
 `python app.py`
 
