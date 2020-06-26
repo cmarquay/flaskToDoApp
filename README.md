@@ -13,10 +13,10 @@ Activate virtualenv:
 Install the python libraries:
 `pip install -r requirements.txt`
 
-Adapt the `app.py` file by putting your secret key for the form and your SQLAlchemy database URI
+Adapt the `app/app.py` file by putting your secret key for the form and your SQLAlchemy database URI
 
 Launch the application:
-`python app.py`
+`python run.py`
 
 **Author**: Christian MARQUAY / June 2020
 
