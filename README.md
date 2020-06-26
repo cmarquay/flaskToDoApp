@@ -13,9 +13,7 @@ Activate virtualenv:
 Install the python libraries:
 `pip install -r requirements.txt`
 
-Adapt the `app.py` file by putting your secret key for the form and the SQLAlchemy database URI
-
-Create the database with `python` then `db.create_all()`
+Adapt the `app.py` file by putting your secret key for the form and your SQLAlchemy database URI
 
 Launch the application:
 `python app.py`
