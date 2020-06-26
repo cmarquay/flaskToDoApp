@@ -6,7 +6,7 @@
     <div class="card-body">
         <h3>{{ task.title }}</h3>
         <p>Added on {{ task.date }}</p>
-        <a class="btn btn-primary" href="#">Edit</a>
+        <a class="btn btn-primary" href="{{ url_for('edit', task_id=task.id) }}">Edit</a>
         <a class="btn btn-danger" href="#">Delete</a>
     </div>
 </div>
