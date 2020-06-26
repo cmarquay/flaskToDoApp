@@ -1,9 +1,9 @@
-from app import app, db
+from app.app import app, db
 from flask import render_template, redirect, url_for, flash
-from models import Task
+from app.models import Task
 from datetime import datetime
 
-import forms
+from app import forms
 
 
 @app.route("/")
