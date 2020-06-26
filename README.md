@@ -15,7 +15,7 @@ Install the python libraries:
 
 Adapt the `app.py` file by putting your secret key for the form and the SQLAlchemy database URI
 
-Create the database with `python` then `db.create_all ()`
+Create the database with `python` then `db.create_all()`
 
 Launch the application:
 `python app.py`
